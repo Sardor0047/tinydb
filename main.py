@@ -70,7 +70,7 @@ notebooks = {
     'Asus':[
         {
             'model': 'ZenBook 14',
-            'specs': {
+            'characteristic': {
                 'Processor': 'AMD Ryzen 7 5800H',
                 'RAM': '16 GB',
                 'Storage': '512 GB',
@@ -82,7 +82,7 @@ notebooks = {
         },
         {
             'model': 'ROG Zephyrus G14',
-            'specs': {
+            'characteristic': {
                 'Processor': 'AMD Ryzen 9 6900HS',
                 'RAM': '16 GB',
                 'Storage': '1 TB',
@@ -94,7 +94,7 @@ notebooks = {
         },
         {
             'model': 'VivoBook 15',
-            'specs': {
+            'characteristic': {
                 'Processor': 'Intel Core i5-1235U',
                 'RAM': '8 GB',
                 'Storage': '256 GB',
@@ -106,7 +106,7 @@ notebooks = {
         },
         {
             'model': 'TUF Gaming A15',
-            'specs': {
+            'characteristic': {
                 'Processor': 'AMD Ryzen 7 6800H',
                 'RAM': '16 GB',
                 'Storage': '1 TB',
@@ -118,7 +118,7 @@ notebooks = {
         },
         {
             'model': 'ProArt Studiobook 16',
-            'specs': {
+            'characteristic': {
                 'Processor': 'Intel Core i9-13980HX',
                 'RAM': '32 GB',
                 'Storage': '2 TB',
@@ -132,7 +132,7 @@ notebooks = {
         'Apple': [
         {
             'model': 'MacBook Air M2',
-            'specs': {
+            'characteristic': {
                 'Processor': 'Apple M2',
                 'RAM': '8 GB',
                 'Storage': '256 GB',
@@ -144,7 +144,7 @@ notebooks = {
         },
         {
             'model': 'MacBook Air M1',
-            'specs': {
+            'characteristic': {
                 'Processor': 'Apple M1',
                 'RAM': '8 GB',
                 'Storage': '256 GB',
@@ -156,7 +156,7 @@ notebooks = {
         },
         {
             'model': 'MacBook Pro 14-inch',
-            'specs': {
+            'characteristic': {
                 'Processor': 'Apple M2 Pro',
                 'RAM': '16 GB',
                 'Storage': '512 GB',
@@ -168,7 +168,7 @@ notebooks = {
         },
         {
             'model': 'MacBook Pro 16-inch',
-            'specs': {
+            'characteristic': {
                 'Processor': 'Apple M2 Max',
                 'RAM': '32 GB',
                 'Storage': '1 TB',
@@ -180,7 +180,7 @@ notebooks = {
         },
         {
             'model': 'MacBook Pro 13-inch',
-            'specs': {
+            'characteristic': {
                 'Processor': 'Apple M2',
                 'RAM': '8 GB',
                 'Storage': '256 GB',
@@ -191,4 +191,85 @@ notebooks = {
             }
         }
     ]
+}
+
+phones = {
+    'Samsung': [
+        {
+            'model': 'Galaxy S24 Ultra',
+            'category': 'Flagship',
+            'characteristic': {
+                'Processor': 'Snapdragon 8 Gen 3',
+                'RAM': '12 GB',
+                'Storage': '256 GB',
+                'Display': '6.8-inch Dynamic AMOLED 2X (3088x1440)',
+                'Battery': '5000 mAh',
+                'Camera': '200 MP + 12 MP + 50 MP + 10 MP',
+                'OS': 'Android 14 (One UI 6)',
+                'Features': ['Built-in S Pen', 'Titanium frame', '100x Space Zoom'],
+                'Cost': '$1,300-1,600'
+            }
+        },
+        {
+            'model': 'Galaxy Z Fold 6',
+            'category': 'Foldable',
+            'characteristic': {
+                'Processor': 'Snapdragon 8 Gen 3',
+                'RAM': '12 GB',
+                'Storage': '512 GB',
+                'Display': '7.6-inch Foldable AMOLED (2176x1812)',
+                'Battery': '4800 mAh',
+                'Camera': '50 MP + 12 MP + 10 MP',
+                'OS': 'Android 14 (One UI 6)',
+                'Features': ['IPX8 water resistance', 'Multi-window multitasking'],
+                'Cost': '$1,800-2,000'
+            }
+        },
+        {
+            'model': 'Galaxy A35 5G',
+            'category': 'Mid-Range',
+            'characteristic': {
+                'Processor': 'Exynos 1380',
+                'RAM': '8 GB',
+                'Storage': '128 GB',
+                'Display': '6.5-inch Super AMOLED (1080x2340)',
+                'Battery': '5000 mAh',
+                'Camera': '50 MP + 8 MP + 5 MP',
+                'OS': 'Android 14 (One UI 6)',
+                'Features': ['120Hz refresh rate', '25W fast charging'],
+                'Cost': '$350-450'
+            }
+        },
+        {
+            'model': 'Galaxy S23 FE',
+            'category': 'Affordable Flagship',
+            'characteristic': {
+                'Processor': 'Exynos 2200',
+                'RAM': '8 GB',
+                'Storage': '256 GB',
+                'Display': '6.4-inch Dynamic AMOLED (1080x2340)',
+                'Battery': '4500 mAh',
+                'Camera': '50 MP + 12 MP + 8 MP',
+                'OS': 'Android 14 (One UI 6)',
+                'Features': ['Wireless charging', 'Flagship-grade camera'],
+                'Cost': '$600-750'
+            }
+        },
+        {
+            'model': 'Galaxy M54 5G',
+            'category': 'Budget',
+            'characteristic': {
+                'Processor': 'Exynos 1380',
+                'RAM': '6 GB',
+                'Storage': '128 GB',
+                'Display': '6.7-inch Super AMOLED (1080x2400)',
+                'Battery': '6000 mAh',
+                'Camera': '64 MP + 12 MP + 5 MP',
+                'OS': 'Android 14 (One UI 6)',
+                'Features': ['25W charging', '5G support'],
+                'Cost': '$250-350'
+            }
+        }
+    ],
+    
 }
