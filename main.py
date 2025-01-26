@@ -271,5 +271,154 @@ phones = {
             }
         }
     ],
-    
+    'Apple': [
+        {
+            'model': 'iPhone 15 Pro Max',
+            'category': 'Flagship',
+            'specs': {
+                'Processor': 'A17 Bionic',
+                'RAM': '8 GB',
+                'Storage': '256 GB',
+                'Display': '6.7-inch Super Retina XDR (2796x1290)',
+                'Battery': '4352 mAh',
+                'Camera': '48 MP + 12 MP + 12 MP',
+                'OS': 'iOS 17',
+                'Cost': '$1,200-1,400'
+            }
+        },
+        {
+            'model': 'iPhone 15',
+            'category': 'Mainstream',
+            'specs': {
+                'Processor': 'A16 Bionic',
+                'RAM': '6 GB',
+                'Storage': '128 GB',
+                'Display': '6.1-inch Super Retina XDR (2532x1170)',
+                'Battery': '3349 mAh',
+                'Camera': '48 MP + 12 MP',
+                'OS': 'iOS 17',
+                'Cost': '$800-1,000'
+            }
+        },
+        {
+            'model': 'iPhone SE (4th Gen)',
+            'category': 'Budget',
+            'specs': {
+                'Processor': 'A16 Bionic',
+                'RAM': '4 GB',
+                'Storage': '64 GB',
+                'Display': '6.1-inch LCD (1792x828)',
+                'Battery': '2018 mAh',
+                'Camera': '12 MP',
+                'OS': 'iOS 17',
+                'Cost': '$450-550'
+            }
+        },
+        {
+            'model': 'iPhone 14 Plus',
+            'category': 'Large Display',
+            'specs': {
+                'Processor': 'A15 Bionic',
+                'RAM': '6 GB',
+                'Storage': '128 GB',
+                'Display': '6.7-inch Super Retina XDR (2778x1284)',
+                'Battery': '4325 mAh',
+                'Camera': '12 MP + 12 MP',
+                'OS': 'iOS 17',
+                'Cost': '$900-1,100'
+            }
+        },
+        {
+            'model': 'iPhone 13 Mini',
+            'category': 'Compact',
+            'specs': {
+                'Processor': 'A15 Bionic',
+                'RAM': '4 GB',
+                'Storage': '128 GB',
+                'Display': '5.4-inch Super Retina XDR (2340x1080)',
+                'Battery': '2406 mAh',
+                'Camera': '12 MP + 12 MP',
+                'OS': 'iOS 17',
+                'Cost': '$600-700'
+            }
+        }
+    ],
+        'Xiaomi': [
+        {
+            'model': 'Xiaomi 14 Pro',
+            'category': 'Flagship',
+            'specs': {
+                'Processor': 'Snapdragon 8 Gen 3',
+                'RAM': '12 GB',
+                'Storage': '256 GB',
+                'Display': '6.73-inch AMOLED (3200x1440)',
+                'Battery': '5000 mAh',
+                'Camera': '50 MP + 50 MP + 50 MP',
+                'OS': 'Android 14 (HyperOS)',
+                'Features': ['Leica camera', '120W fast charging', 'IP68 rating'],
+                'Cost': '$900-1,100'
+            }
+        },
+        {
+            'model': 'Xiaomi 13T Pro',
+            'category': 'Mid-Range',
+            'specs': {
+                'Processor': 'Dimensity 9200+',
+                'RAM': '12 GB',
+                'Storage': '512 GB',
+                'Display': '6.67-inch AMOLED (2712x1220)',
+                'Battery': '5000 mAh',
+                'Camera': '50 MP + 12 MP + 8 MP',
+                'OS': 'Android 14 (HyperOS)',
+                'Features': ['144Hz display', '120W fast charging'],
+                'Cost': '$600-750'
+            }
+        },
+        {
+            'model': 'Redmi Note 13 Pro+',
+            'category': 'Budget Flagship',
+            'specs': {
+                'Processor': 'Dimensity 7200 Ultra',
+                'RAM': '8 GB',
+                'Storage': '256 GB',
+                'Display': '6.67-inch AMOLED (2712x1220)',
+                'Battery': '5000 mAh',
+                'Camera': '200 MP + 8 MP + 2 MP',
+                'OS': 'Android 14 (HyperOS)',
+                'Cost': '$400-500'
+            }
+        },
+        {
+            'model': 'Poco F5',
+            'category': 'Gaming',
+            'specs': {
+                'Processor': 'Snapdragon 7+ Gen 2',
+                'RAM': '8 GB',
+                'Storage': '256 GB',
+                'Display': '6.67-inch AMOLED (2400x1080)',
+                'Battery': '5000 mAh',
+                'Camera': '64 MP + 8 MP + 2 MP',
+                'OS': 'Android 14 (HyperOS)',
+                'Cost': '$350-450'
+            }
+        },
+        {
+            'model': 'Redmi 12',
+            'category': 'Budget',
+            'specs': {
+                'Processor': 'Helio G88',
+                'RAM': '4 GB',
+                'Storage': '128 GB',
+                'Display': '6.79-inch IPS (2460x1080)',
+                'Battery': '5000 mAh',
+                'Camera': '50 MP + 8 MP + 2 MP',
+                'OS': 'Android 13 (MIUI 14)',
+                'Cost': '$150-200'
+            }
+        }
+    ]
+
 }
+
+
+db.insert_multiple([notebooks,phones])
