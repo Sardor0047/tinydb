@@ -18,6 +18,17 @@ notebooks = {
                 'Cost': '1500-1800 $'
             }
         },
-        
+        {
+            'model':'Yoga 9i',
+            'characteristic':{
+                'Processor': 'Intel Core i7-1360P',
+                'RAM': '16 GB',
+                'Storage' : '1 TB',
+                'Display':"14' 4K UHD OLED",
+                'Weight':'3.09 lbs',
+                'Best For':'Creatives and multimedia',
+                'Cost':'1600-2000 $'
+            }
+        }
     ]
 }
