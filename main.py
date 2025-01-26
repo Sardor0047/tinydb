@@ -29,7 +29,7 @@ notebooks = {
                 'Best For':'Creatives and multimedia',
                 'Cost':'1600-2000 $'
             }
-        }
+        },
         {
             'model':'Legion 5 Pro (16-inch)',
             'characteristic':{
@@ -40,6 +40,30 @@ notebooks = {
                 'Weight':'5.4 lbs',
                 'Best For':'Gamers and content creators',
                 'Cost':'1800-2300 $'
+            }
+        },
+        {
+            'model': 'IdeaPad Flex 5 (14-inch)',
+            'characteristic':{
+                'Processor': 'AMD Ryzen 5 5500U',
+                'RAM': '8 GB',
+                'Storage':'256GB SSD',
+                'Display':'14" FHD (1920x1080), IPS, Touchscreen, 300 nits',
+                'Weight':'3.64 lbs',
+                'Best for':'Students and budget users',
+                'Cost':'700-900 $'
+            }
+        },
+        {
+            'model':'ThinkBook 16p Gen 4',
+            'characteristic':{
+                'Processor':'AMD Ryzen 9 6900HX',
+                'RAM':'32 GB',
+                'Storage': '1TB SSD',
+                'Display': '16" WQXGA (2560x1600), IPS, 165Hz, 500 nits',
+                'Weight':'4.5 lbs',
+                'Best for':'Professionals and creators',
+                'Cost' :'2000-2500 $'
             }
         }
     ]
